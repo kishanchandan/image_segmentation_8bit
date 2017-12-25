@@ -1,0 +1,113 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: kingimage - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Debug/kingimage.res" /d "_DEBUG" /d "_AFXDLL" "C:\users\lijun\CS555_Fall2005\SampleProgram\Winsample2003\kingimage.rc"" 
+Creating temporary file "C:\DOCUME~1\LIJUNY~1\LOCALS~1\Temp\RSP1E4.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /FR"Debug/" /Fp"Debug/kingimage.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /c 
+"C:\users\lijun\CS555_Fall2005\SampleProgram\Winsample2003\ChildFrm.cpp"
+"C:\users\lijun\CS555_Fall2005\SampleProgram\Winsample2003\kingbmp.cpp"
+"C:\users\lijun\CS555_Fall2005\SampleProgram\Winsample2003\KINGGIF.cpp"
+"C:\users\lijun\CS555_Fall2005\SampleProgram\Winsample2003\kingimage.cpp"
+"C:\users\lijun\CS555_Fall2005\SampleProgram\Winsample2003\kingimageDoc.cpp"
+"C:\users\lijun\CS555_Fall2005\SampleProgram\Winsample2003\kingimageView.cpp"
+"C:\users\lijun\CS555_Fall2005\SampleProgram\Winsample2003\KINGJPG.cpp"
+"C:\users\lijun\CS555_Fall2005\SampleProgram\Winsample2003\KINGPCX.cpp"
+"C:\users\lijun\CS555_Fall2005\SampleProgram\Winsample2003\MainFrm.cpp"
+"C:\users\lijun\CS555_Fall2005\SampleProgram\Winsample2003\picture.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\LIJUNY~1\LOCALS~1\Temp\RSP1E4.tmp" 
+Creating temporary file "C:\DOCUME~1\LIJUNY~1\LOCALS~1\Temp\RSP1E5.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /FR"Debug/" /Fp"Debug/kingimage.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /c 
+"C:\users\lijun\CS555_Fall2005\SampleProgram\Winsample2003\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\LIJUNY~1\LOCALS~1\Temp\RSP1E5.tmp" 
+Creating temporary file "C:\DOCUME~1\LIJUNY~1\LOCALS~1\Temp\RSP1E6.tmp" with contents
+[
+kingtools.lib /nologo /stack:0x1e8480 /subsystem:windows /incremental:yes /pdb:"Debug/kingimage.pdb" /debug /machine:I386 /out:"Debug/kingimage.exe" /pdbtype:sept 
+.\Debug\ChildFrm.obj
+.\Debug\kingbmp.obj
+.\Debug\KINGGIF.obj
+.\Debug\kingimage.obj
+.\Debug\kingimageDoc.obj
+.\Debug\kingimageView.obj
+.\Debug\KINGJPG.obj
+.\Debug\KINGPCX.obj
+.\Debug\MainFrm.obj
+.\Debug\picture.obj
+.\Debug\StdAfx.obj
+.\Debug\kingimage.res
+]
+Creating command line "link.exe @C:\DOCUME~1\LIJUNY~1\LOCALS~1\Temp\RSP1E6.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+ChildFrm.cpp
+kingbmp.cpp
+KINGGIF.cpp
+kingimage.cpp
+kingimageDoc.cpp
+kingimageView.cpp
+KINGJPG.cpp
+C:\users\lijun\CS555_Fall2005\SampleProgram\Winsample2003\KINGJPG.cpp(374) : warning C4101: 'd3' : unreferenced local variable
+C:\users\lijun\CS555_Fall2005\SampleProgram\Winsample2003\KINGJPG.cpp(374) : warning C4101: 'd4' : unreferenced local variable
+C:\users\lijun\CS555_Fall2005\SampleProgram\Winsample2003\KINGJPG.cpp(514) : warning C4101: 'temp' : unreferenced local variable
+C:\users\lijun\CS555_Fall2005\SampleProgram\Winsample2003\KINGJPG.cpp(579) : warning C4101: 'place4' : unreferenced local variable
+C:\users\lijun\CS555_Fall2005\SampleProgram\Winsample2003\KINGJPG.cpp(897) : warning C4244: '=' : conversion from 'double' to 'short', possible loss of data
+C:\users\lijun\CS555_Fall2005\SampleProgram\Winsample2003\KINGJPG.cpp(910) : warning C4101: 'v_length' : unreferenced local variable
+C:\users\lijun\CS555_Fall2005\SampleProgram\Winsample2003\KINGJPG.cpp(910) : warning C4101: 'r' : unreferenced local variable
+C:\users\lijun\CS555_Fall2005\SampleProgram\Winsample2003\KINGJPG.cpp(913) : warning C4101: 'length' : unreferenced local variable
+C:\users\lijun\CS555_Fall2005\SampleProgram\Winsample2003\KINGJPG.cpp(911) : warning C4101: 'v' : unreferenced local variable
+C:\users\lijun\CS555_Fall2005\SampleProgram\Winsample2003\KINGJPG.cpp(1058) : warning C4101: 'serach' : unreferenced local variable
+KINGPCX.cpp
+MainFrm.cpp
+C:\users\lijun\CS555_Fall2005\SampleProgram\Winsample2003\MainFrm.cpp(60) : warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+C:\users\lijun\CS555_Fall2005\SampleProgram\Winsample2003\MainFrm.cpp(61) : warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+C:\users\lijun\CS555_Fall2005\SampleProgram\Winsample2003\MainFrm.cpp(62) : warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+C:\users\lijun\CS555_Fall2005\SampleProgram\Winsample2003\MainFrm.cpp(63) : warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+C:\users\lijun\CS555_Fall2005\SampleProgram\Winsample2003\MainFrm.cpp(64) : warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+C:\users\lijun\CS555_Fall2005\SampleProgram\Winsample2003\MainFrm.cpp(66) : warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+C:\users\lijun\CS555_Fall2005\SampleProgram\Winsample2003\MainFrm.cpp(67) : warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+C:\users\lijun\CS555_Fall2005\SampleProgram\Winsample2003\MainFrm.cpp(68) : warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+C:\users\lijun\CS555_Fall2005\SampleProgram\Winsample2003\MainFrm.cpp(69) : warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+C:\users\lijun\CS555_Fall2005\SampleProgram\Winsample2003\MainFrm.cpp(70) : warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+C:\users\lijun\CS555_Fall2005\SampleProgram\Winsample2003\MainFrm.cpp(71) : warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+picture.cpp
+Generating Code...
+C:\users\lijun\CS555_Fall2005\SampleProgram\Winsample2003\KINGJPG.cpp(379) : warning C4700: local variable 'd1' used without having been initialized
+C:\users\lijun\CS555_Fall2005\SampleProgram\Winsample2003\KINGJPG.cpp(689) : warning C4700: local variable 'king' used without having been initialized
+C:\users\lijun\CS555_Fall2005\SampleProgram\Winsample2003\kingbmp.cpp(165) : warning C4700: local variable 'writepixel' used without having been initialized
+Linking...
+Creating temporary file "C:\DOCUME~1\LIJUNY~1\LOCALS~1\Temp\RSP1E8.tmp" with contents
+[
+/nologo /o"Debug/kingimage.bsc" 
+.\Debug\StdAfx.sbr
+.\Debug\ChildFrm.sbr
+.\Debug\kingbmp.sbr
+.\Debug\KINGGIF.sbr
+.\Debug\kingimage.sbr
+.\Debug\kingimageDoc.sbr
+.\Debug\kingimageView.sbr
+.\Debug\KINGJPG.sbr
+.\Debug\KINGPCX.sbr
+.\Debug\MainFrm.sbr
+.\Debug\picture.sbr]
+Creating command line "bscmake.exe @C:\DOCUME~1\LIJUNY~1\LOCALS~1\Temp\RSP1E8.tmp"
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+kingimage.exe - 0 error(s), 24 warning(s)
+</pre>
+</body>
+</html>
